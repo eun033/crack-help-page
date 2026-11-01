@@ -11,7 +11,7 @@
 </head>
 <body>
 <a class="skip" href="#content">본문으로 건너뛰기</a>
-<header><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><span class="edition">HAP-GPT · 1차 초안</span></header>
+<header><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><span class="edition">HAP-GPT</span></header>
 <div class="shell">
 <aside><p class="nav-label">GUIDE / 사용 안내</p>
 <nav aria-label="문서 메뉴">
@@ -19,9 +19,9 @@
 {% assign labels = '시작하기,01 · Wish Core,02 · 백업과 복원,03 · GPT 활용,04 · GPT 브리지,참고 자료 · 작성 현황' | split: ',' %}
 {% for url in urls %}<a href="{{ url | relative_url }}"{% if page.url == url %} aria-current="page"{% endif %}>{{ labels[forloop.index0] }}</a>{% endfor %}
 </nav><p class="sidebar-note">처음이라면 기본 사용법부터.<br>설치 중이라면 GPT 브리지로.</p></aside>
-<main id="content" tabindex="-1"><div class="eyebrow">WISH CORE / HAP-GPT</div><h1>{{ page.title }}</h1><p class="lead">{{ page.description }}</p><div class="draft">작성 중인 1차 초안임. 메뉴 이름과 설치 방법은 사용 중인 버전에서 확인하면 됨.</div>
+<main id="content" tabindex="-1"><div class="eyebrow">WISH CORE / HAP-GPT</div><h1>{{ page.title }}</h1><p class="lead">{{ page.description }}</p><div class="draft">메뉴 이름과 설치 방법은 사용 중인 버전에서 확인하면 됨.</div>
 <article>{{ content }}</article>
-<footer>2026.11.01 기준 초안 · <a href="https://github.com/eun033/crack-help-page">GitHub에서 원고 보기</a></footer>
+<footer>2026.11.01 기준 안내 · <a href="https://github.com/eun033/crack-help-page">GitHub에서 원고 보기</a></footer>
 </main></div>
 <div id="copy-status" role="status" aria-live="polite"></div>
 </body></html>

@@ -1,6 +1,6 @@
 # crack-help-page
 
-Wish Core · HAP-GPT 한국어 사용설명서 1차 초안임.
+Wish Core · HAP-GPT 한국어 사용설명서임.
 
 ## 구성
 
@@ -25,4 +25,4 @@ GitHub Pages 기본 Jekyll을 사용함. 원고는 Markdown, 공통 화면은 `_
 
 해당 Markdown 파일의 본문을 수정함. 명령어는 fenced code block으로 작성하면 복사 버튼이 자동으로 붙음. 복사 권한이 거부되면 직접 선택해 복사할 수 있도록 안내함.
 
-초안의 미확인 내용과 화면 보강 순서는 sources.md에 기록함.
+미확인 내용과 화면 보강 순서는 sources.md에 기록함.
