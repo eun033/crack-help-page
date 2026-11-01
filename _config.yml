@@ -1,0 +1,12 @@
+title: Wish Core · HAP-GPT 사용설명서
+url: "https://eun033.github.io"
+baseurl: "/crack-help-page"
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - tests
