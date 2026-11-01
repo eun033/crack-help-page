@@ -27,7 +27,7 @@ description: 확인된 내용과 앞으로 보강할 내용을 구분해 기록�
 - [공개 브리지 README](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/termux-bridge/README.md)
 - [GPT 브리지 디시용 HTML](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/GPT브리지_디시사용법.html)
 
-브리지 탭의 ZIP·Git 설치는 공개 배포 저장소 기준임. 확인한 ZIP은 0.1.4이며 개발 저장소 설치 경로와 혼합하지 않음. Git 설치의 Windows 직접 실행은 공개 브리지 0.2.8의 Node.js 22 이상 조건과 `src/server.mjs` 경로를 확인해 작성함. macOS와 Windows ZIP 설치는 지원 준비 중으로 표시함.
+브리지 탭의 ZIP·Git 설치는 공개 배포 저장소 기준임. 확인한 ZIP은 0.1.4이며 개발 저장소 설치 경로와 혼합하지 않음. Windows 직접 실행은 공개 브리지 0.2.8의 Node.js 22 이상 조건과 `src/server.mjs` 경로를 확인해 작성함. Windows ZIP 안내는 공개 0.1.4 압축의 내부 경로와 필수 파일을 직접 확인해 작성함. macOS는 지원 준비 중으로 표시함.
 
 ## 게시글 참고 자료
 
