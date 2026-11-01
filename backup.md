@@ -16,6 +16,11 @@ Firebase·Google Drive 설정은 [기존 클라우드 백업 안내](https://gal
 | Firebase Realtime Database | Firebase 프로젝트·이메일 로그인·DB 주소 | 로그인 UID별 데이터 |
 | Google Drive | Cloud 프로젝트·Drive API·OAuth 클라이언트 ID | 내 드라이브 / Wish-Core-Backups |
 
+<noscript><p>JavaScript가 꺼져 있어 모든 서비스 안내를 펼쳐 표시함. 서비스 제목을 확인하고 해당 절차만 사용할 것.</p></noscript>
+<div class="guide-tabs" data-tabs>
+<div class="guide-tab-list" data-tab-list aria-label="백업 서비스" hidden><button type="button" id="backup-service-tab-koofr" data-tab="backup-service-panel-koofr">Koofr</button><button type="button" id="backup-service-tab-firebase" data-tab="backup-service-panel-firebase">Firebase</button><button type="button" id="backup-service-tab-drive" data-tab="backup-service-panel-drive">Google Drive</button></div>
+<section id="backup-service-panel-koofr" data-tab-panel aria-labelledby="backup-service-tab-koofr" markdown="1">
+
 ## Koofr
 
 1. `자료 관리 → 백업 · 복원 → 클라우드 백업`에서 **Koofr**를 선택함.
@@ -25,6 +30,9 @@ Firebase·Google Drive 설정은 [기존 클라우드 백업 안내](https://gal
 5. **방 골라 백업**으로 저장하고 **목록 새로고침**으로 확인함.
 
 저장 위치는 `Koofr / Wish-Core-Backups`임. 수동 저장·불러오기 방식으로 자동 업로드·자동 삭제는 하지 않으며, 백업은 암호화하지 않은 JSON임. 연결 정보는 확장 프로그램에 저장되고 백업에는 포함되지 않음.
+
+</section>
+<section id="backup-service-panel-firebase" data-tab-panel aria-labelledby="backup-service-tab-firebase" markdown="1">
 
 ## Firebase Realtime Database
 
@@ -77,6 +85,9 @@ Firebase 백업 설정에 아래 값을 입력함.
 
 App Check를 적용한 DB는 Web App ID와 등록된 디버그 토큰도 필요함. Web API Key 자체보다 로그인 계정과 DB 보안 규칙이 접근을 통제함. 백업 JSON은 별도 암호화 없이 저장됨.
 
+</section>
+<section id="backup-service-panel-drive" data-tab-panel aria-labelledby="backup-service-tab-drive" markdown="1">
+
 ## Google Drive
 
 Google AI Studio API 키가 아닌 **OAuth 웹 클라이언트 ID**가 필요함.
@@ -102,6 +113,9 @@ https://crack.wrtn.ai
 이 방식은 JavaScript 콜백을 사용하므로 리디렉션 URI를 별도로 입력하지 않음. 로그인 창이 뜨지 않으면 Crack 사이트의 팝업 허용 상태를 확인할 것.
 
 연결 후 `Wish-Core-Backups` 폴더가 생성됨. Drive 백업 삭제는 휴지통 이동으로 처리됨.
+
+</section>
+</div>
 
 ## 복원할 때
 
