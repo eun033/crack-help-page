@@ -23,10 +23,11 @@ description: 확인된 내용과 앞으로 보강할 내용을 구분해 기록�
 
 브리지 서버는 별도 프로그램이므로 설치·실행 안내는 아래 자료를 함께 참고함.
 
-- [Termux 브리지 README](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/termux-bridge/README.md)
+- [공개 배포 ZIP·Git 설치 README](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/README.md)
+- [공개 Termux 브리지 README](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/termux-bridge/README.md)
 - [GPT 브리지 디시용 HTML](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/GPT브리지_디시사용법.html)
 
-개발 저장소와 공개 ZIP의 경로·버전이 다를 수 있으므로 설치 방법을 혼합하지 않음.
+브리지 탭의 ZIP·Git 설치는 공개 배포 저장소 기준임. 확인한 ZIP은 0.1.4이며 개발 저장소 설치 경로와 혼합하지 않음. macOS·Windows는 지원 준비 중으로 표시함.
 
 ## 게시글 참고 자료
 
