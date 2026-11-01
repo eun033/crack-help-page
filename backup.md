@@ -8,17 +8,23 @@ description: Koofr, Firebase Realtime Database, Google Drive에 자료를 보관
 
 | 서비스 | 준비할 것 | 작성 상태 |
 | --- | --- | --- |
-| Koofr | 원본 Core의 Koofr 연결 설정 | 상세 설정 화면 확인 예정 |
+| Koofr | Koofr 이메일·앱 비밀번호 | 코드의 연결 UI 확인 |
 | Firebase Realtime Database | Firebase 프로젝트·이메일 로그인·DB 주소 | 연결 개요 작성 |
 | Google Drive | Cloud 프로젝트·Drive API·OAuth 클라이언트 ID | 연결 개요 작성 |
 
 ## Koofr
 
-Koofr는 Core 원본의 백업 기능을 사용합니다. 클라우드 백업 화면에서 Koofr를 선택하고, 연결 후 백업 대상 방을 선택합니다.
+1. `자료 관리 → 백업 · 복원 → 클라우드 백업`에서 **Koofr**를 선택합니다.
+2. Koofr의 **Preferences → Password**에서 Wish용 **앱 비밀번호**를 만듭니다. 일반 로그인 비밀번호와 다릅니다.
+3. **연결 설정**에서 가입 이메일과 앱 비밀번호를 입력합니다.
+4. **연결 테스트** 후 **저장**합니다.
+5. **방 골라 백업**으로 저장하고 **목록 새로고침**으로 확인합니다.
 
-**계정 연결 방법과 입력 항목은 실제 화면 확인 후 추가합니다.** Firebase나 Drive의 인증 정보를 Koofr 입력칸에 넣지 마세요.
+저장 위치는 `Koofr / Wish-Core-Backups`입니다. 수동 저장·불러오기 방식으로 자동 업로드·자동 삭제는 하지 않으며, 백업은 암호화하지 않은 JSON입니다. 연결 정보는 확장 프로그램에 저장되고 백업에는 포함되지 않습니다.
 
 ## Firebase Realtime Database
+
+여기서 말하는 Firebase는 **백업용 Realtime Database**입니다. 보조 AI 공급자의 **Firebase AI Logic**과는 설정 목적이 다릅니다.
 
 1. Firebase 프로젝트를 준비합니다.
 2. Authentication에서 이메일/비밀번호 로그인을 설정하고 사용할 계정을 준비합니다.

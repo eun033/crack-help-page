@@ -2,14 +2,31 @@
 title: 참고 자료와 작성 현황
 description: 확인된 내용과 앞으로 보강할 내용을 구분해 기록합니다.
 ---
-## 확인한 저장소 자료
+## 설명의 기준: 공개 배포 스크립트
 
-- [Core·Cloud Patch README](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/README.md)
-- [HAP-GPT README](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/README.md) — 확인 시 개발본 0.1.6
-- [Termux 브리지 README](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/termux-bridge/README.md) — 확인 시 개발본 0.2.8
+- [Wish_RP_Core_HAP_GPT.user.js](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/Wish_RP_Core_HAP_GPT.user.js)
+- 확인 버전: **0.1.4** / 내장 Core: **2.0.5**
+- 확인한 파일 blob SHA: `f16babf3a30ad4f742b9150a5d80a8c19b39c08e`
+
+메뉴·설정 설명은 이 공개 파일의 UI 생성 함수와 처리 코드를 기준으로 대조했습니다. 개발 README의 최신 기능을 공개 배포본의 기능처럼 안내하지 않습니다. 실제 계정 로그인·AI 호출·Android 실기기 동작을 검증한 것은 아닙니다.
+
+| 확인 영역 | 코드 근거 |
+| --- | --- |
+| 자동정리 주기 | `U3.saveSettings`, `vSettings`: 인물 2~100턴, 기억은 두 배 |
+| 기억·OOC·캐릭터 | `vMemory`, `mExtra`, `mChar`, 프리셋 저장 처리 |
+| 주입 후보·AI 재검토 | `vMemory`, `vSettings`, 후보 선별 코드 |
+| 방 복사·재구축·정리 | `vTools`, `vExternalRebuild` |
+| 클라우드 백업 | `WishKoofr`, Firebase·Drive 패널과 요청 처리 |
+| ChatGPT 구독 주소 | `ai(d)`: 단일 Termux 연결 주소 입력 |
+
+## 브리지 설치의 보조 자료
+
+브리지 서버는 별도 프로그램이므로 설치·실행 안내는 아래 자료를 함께 참고합니다.
+
+- [Termux 브리지 README](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/termux-bridge/README.md)
 - [GPT 브리지 디시용 HTML](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/GPT브리지_디시사용법.html)
 
-디시용 HTML의 고정 ZIP 버전보다 개발 README의 변경 내용이 최신이므로 설치 경로와 버전을 혼합하지 않았습니다. 실제 계정 로그인과 Android 실기기 실행은 이 설명서 작성 과정에서 검증하지 않았습니다.
+개발 저장소와 공개 ZIP의 경로·버전이 다를 수 있으므로 설치 방법을 혼합하지 않습니다.
 
 ## 제공받은 게시글 · 본문 확인 대기
 
@@ -19,13 +36,11 @@ description: 확인된 내용과 앞으로 보강할 내용을 구분해 기록�
 - [디시 게시글 273481](https://gall.dcinside.com/mini/board/view/?id=wrtnw&no=273481)
 - [디시 게시글 274924](https://gall.dcinside.com/mini/board/view/?id=wrtnw&no=274924)
 
-## 다음 수정 순서
+## 다음 수정과 필요한 실제 화면
 
-1. Wish Core: 제공받은 기본 사용법 반영 완료; 실제 화면과 세부 예시 보강
-2. Koofr: 계정 연결부터 백업·복원까지
-3. Firebase: 콘솔 설정, 실제 데이터 경로와 보안 규칙
-4. Google Drive: OAuth 설정 화면과 연결 오류
-5. GPT 활용: 재구축 예시, 공급자별 설정
-6. GPT 브리지: 공개 배포 ZIP 설치와 실제 화면
+1. 기본 사용법: 확인 탭의 OFF·주입 시작, 기억 → 기타·OOC와 프리셋, 인물 → 캐릭터
+2. 설정: 자동 정리의 인물·기억 주기, API 사용량 절약, 선택된 기억 AI 재검토
+3. 자료 관리: 외부 AI로 재구축, 다른 방 자료 복사하기, 백업 · 복원
+4. 서비스별 콘솔 설정과 공개 ZIP 설치 상세 안내
 
-스크린샷은 실제 화면을 확보한 뒤 추가합니다. 인증 정보와 pair 주소는 가립니다. 이번 초안에는 실제 기능 화면처럼 보이는 생성 이미지를 넣지 않았습니다.
+이미지는 실제 화면을 확보한 뒤 추가합니다. 실제 캡처를 제공할 때는 API 키·비밀번호·pair 연결 주소와 개인 대화 내용을 가려 주세요.
