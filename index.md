@@ -22,6 +22,11 @@ Koofr·Google Drive 백업과 기존 보조 AI 연결도 사용할 수 있음. �
 - 브리지 안내의 설치·지원 범위는 **같은 Android 기기의 Termux**임.
 - 중요한 자료는 업데이트나 복원 전에 별도로 백업할 것.
 
+## 관련 확장 프로그램
+
+- **위시 코어 HAP**: [배포 게시글 보기](https://gall.dcinside.com/mini/board/view/?id=wrtnw&no=273481)
+- **위시 코어 HAP-GPT**: [배포 게시글 보기](https://gall.dcinside.com/mini/board/view/?id=wrtnw&no=285899)
+
 ## 이 설명서의 작성 순서
 
 우선 네 영역의 골격을 만들었음. 다음에는 **기본 사용법 → 백업 서비스별 설정 → GPT 활용 → 브리지** 순서로 실제 화면과 예시를 하나씩 보강함.
