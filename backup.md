@@ -23,6 +23,9 @@ Firebase·Google Drive 설정은 [기존 클라우드 백업 안내](https://gal
 
 ## Koofr
 
+- **무료 용량**: 평생 무료 **10GB** 제공
+- **주소**: [https://app.koofr.net/](https://app.koofr.net/)
+
 1. `자료 관리 → 백업 · 복원 → 클라우드 백업`에서 **Koofr**를 선택함.
 2. Koofr의 **Preferences → Password**에서 Wish용 **앱 비밀번호**를 만듦. 일반 로그인 비밀번호와 다름.
 3. **연결 설정**에서 가입 이메일과 앱 비밀번호를 입력함.
