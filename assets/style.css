@@ -7,6 +7,8 @@
 [data-tab-panel]>.guide-tabs>.guide-tab-list{background:#f7f8fa}
 [data-tab-panel]>h2:first-child{margin-top:18px;padding-top:0;border-top:0}
 
+.guide-figure{margin:24px 0 32px}.guide-figure img{display:block;width:min(100%,720px);height:auto;border-radius:12px;box-shadow:0 12px 34px #21372c14}.guide-figure figcaption{margin-top:9px;color:#77837c;font-size:12px}
+
 /* 페이지와 코드·표 영역에 공통 적용. 고대비 모드에서는 시스템 색상 유지. */
 html,*{scrollbar-width:thin;scrollbar-color:#a7bbb2 transparent}
 ::-webkit-scrollbar{width:6px;height:6px}

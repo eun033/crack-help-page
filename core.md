@@ -11,11 +11,15 @@ description: 주입을 켜고, 지침과 기억을 넣고, 자동정리 주기�
 
 설정의 **API 사용량 절약**과 **선택된 기억 AI 재검토**는 별도 카드임. API 사용량 절약의 **색인으로 후보 선별**은 요청에 쓸 짧은 색인을 재사용하고, 선택된 기억 AI 재검토는 후보의 관련성·순서를 검토함. AI 재검토는 전체 후보가 5만 자를 넘을 때 사용하며, 전송 시에는 준비된 점수를 사용하거나 최근·키워드 순위로 보냄. 자료를 작성했는데도 반영되지 않는 것 같다면 먼저 주입이 켜져 있는지 확인할 것.
 
+<figure class="guide-figure"><img src="assets/images/core-check.svg" alt="확인 탭에서 주입량과 기억·인물 정리 주기를 확인하는 화면 구성 예시"><figcaption>확인 탭 구성 예시 · 주입 전후 예상량과 기억·인물 정리 시점을 확인할 수 있음.</figcaption></figure>
+
 ## 2. 유저노트와 지침 넣기
 
 유저노트나 대화 지침은 **기억 → 기타·OOC**에 넣으면 됨.
 
 매번 사용하는 지침은 **기본 프리셋**에 미리 넣어 두면 됨. 새 방을 열면 기타 슬롯에 자동으로 들어감. 기존 방에도 바로 넣고 싶다면 **저장하고 이 방에도 적용**을 선택함.
+
+<figure class="guide-figure"><img src="assets/images/core-memory.svg" alt="기억 탭의 기타 OOC 목록과 기본 프리셋, 주입 버튼 화면 구성 예시"><figcaption>기억 → 기타·OOC 구성 예시 · 자주 쓰는 지침은 기본 프리셋으로 관리함.</figcaption></figure>
 
 ## 3. 자동정리 주기 정하기
 
@@ -35,6 +39,8 @@ description: 주입을 켜고, 지침과 기억을 넣고, 자동정리 주기�
 
 **기억·인물 주기가 겹치면 같은 AI 요청으로 처리함.** 현재 배포본은 두 주기를 독립적으로 지정하거나 인물만 한 턴 먼저 실행하도록 설정하는 구조가 아님. 외부 AI 복붙 모드에서는 API 자동정리를 사용하지 않음.
 
+<figure class="guide-figure"><img src="assets/images/core-settings.svg" alt="자동 정리 주기와 API 사용량 절약, 선택된 기억 AI 재검토가 표시된 설정 화면 구성 예시"><figcaption>설정 탭 구성 예시 · 입력한 정리 주기는 인물 주기이며 기억은 두 배로 표시됨.</figcaption></figure>
+
 ## 4. 인물에 모브 추가하기
 
 **인물 → 캐릭터**에서 모브를 추가할 수 있음.
@@ -52,6 +58,8 @@ HAP-GPT에서는 **자료 관리 → 외부 AI로 재구축** 작업을 **GPT로
 5. 결과를 만들었던 **외부 AI로 재구축** 영역의 **JSON 가져오기**로 가져오고, 검증·적용 화면을 확인함.
 
 **GPT로 보냈다고 결과가 자동 적용되지는 않음.** 완성물을 가져와 JSON 가져오기를 해야 함.
+
+<figure class="guide-figure"><img src="assets/images/core-tools.svg" alt="자료 관리 탭의 외부 AI 재구축과 JSON 가져오기 화면 구성 예시"><figcaption>자료 관리 구성 예시 · 외부 AI 결과는 해당 재구축 영역의 JSON 가져오기로 적용함.</figcaption></figure>
 
 [GPT 전송과 보조 AI 연결 자세히 보기 →](gpt.html)
 
