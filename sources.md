@@ -8,7 +8,7 @@ description: 확인된 내용과 앞으로 보강할 내용을 구분해 기록�
 - 확인 버전: **0.1.4** / 내장 Core: **2.0.5**
 - 확인한 파일 blob SHA: `f16babf3a30ad4f742b9150a5d80a8c19b39c08e`
 
-메뉴·설정 설명은 이 공개 파일의 UI 생성 함수와 처리 코드를 기준으로 대조했음. 개발 README의 최신 기능을 공개 배포본의 기능처럼 안내하지 않음. 실제 계정 로그인·AI 호출·Android 실기기 동작을 검증한 것은 아님.
+메뉴·설정 설명은 이 공개 파일의 UI 생성 함수와 처리 코드를 기준으로 대조했음. 개발 README의 최신 기능을 공개 배포본의 기능처럼 안내하지 않음. 실제 계정 로그인·AI 호출·Android 및 Windows 실기기 동작을 검증한 것은 아님.
 
 | 확인 영역 | 코드 근거 |
 | --- | --- |
@@ -17,17 +17,17 @@ description: 확인된 내용과 앞으로 보강할 내용을 구분해 기록�
 | 주입 후보·AI 재검토 | `vMemory`, `vSettings`, 후보 선별 코드 |
 | 방 복사·재구축·정리 | `vTools`, `vExternalRebuild` |
 | 클라우드 백업 | `WishKoofr`, Firebase·Drive 패널과 요청 처리 |
-| ChatGPT 구독 주소 | `ai(d)`: 단일 Termux 연결 주소 입력 |
+| ChatGPT 구독 주소 | `ai(d)`: 단일 로컬 브리지 연결 주소 입력 |
 
 ## 브리지 설치의 보조 자료
 
 브리지 서버는 별도 프로그램이므로 설치·실행 안내는 아래 자료를 함께 참고함.
 
 - [공개 배포 ZIP·Git 설치 README](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/README.md)
-- [공개 Termux 브리지 README](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/termux-bridge/README.md)
+- [공개 브리지 README](https://github.com/eun033/RpCleanerEpub/blob/main/main/wish-core-hap-gpt/termux-bridge/README.md)
 - [GPT 브리지 디시용 HTML](https://github.com/eun033/gpt-codex-work/blob/wish-core-patch/work-hap-gpt/GPT브리지_디시사용법.html)
 
-브리지 탭의 ZIP·Git 설치는 공개 배포 저장소 기준임. 확인한 ZIP은 0.1.4이며 개발 저장소 설치 경로와 혼합하지 않음. macOS·Windows는 지원 준비 중으로 표시함.
+브리지 탭의 ZIP·Git 설치는 공개 배포 저장소 기준임. 확인한 ZIP은 0.1.4이며 개발 저장소 설치 경로와 혼합하지 않음. Git 설치의 Windows 직접 실행은 공개 브리지 0.2.8의 Node.js 22 이상 조건과 `src/server.mjs` 경로를 확인해 작성함. macOS와 Windows ZIP 설치는 지원 준비 중으로 표시함.
 
 ## 게시글 참고 자료
 

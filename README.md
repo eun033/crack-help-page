@@ -8,7 +8,7 @@ Wish Core · HAP-GPT 한국어 사용설명서 1차 초안임.
 - `core.md`: 기본 사용법
 - `backup.md`: Koofr / Firebase Realtime Database / Google Drive
 - `gpt.md`: GPT 전송과 보조 AI
-- `bridge.md`: Android Termux GPT 브리지
+- `bridge.md`: Android Termux·Windows PowerShell GPT 브리지
 - `sources.md`: 근거 자료와 다음 작성 항목
 
 GitHub Pages 기본 Jekyll을 사용함. 원고는 Markdown, 공통 화면은 `_layouts/default.html`, 스타일과 명령어 복사는 `assets/`에 있음. 별도 npm 설치나 번들러가 필요하지 않음.

@@ -8,7 +8,7 @@ description: GPT 전송, API 연결, ChatGPT 구독 연결을 구분함.
 | --- | --- | --- |
 | GPT 전송 | 재구축 파일과 요청 문구를 ChatGPT 입력창으로 전달 | 같은 브라우저의 ChatGPT |
 | 보조 AI · API | 설정한 공급자의 API로 작업 | 공급자별 인증·과금 설정 |
-| 보조 AI · ChatGPT 구독 | 로컬 브리지를 통해 본인 계정으로 작업 | Android·Termux·HAP-GPT·사용 권한 |
+| 보조 AI · ChatGPT 구독 | 로컬 브리지를 통해 본인 계정으로 작업 | Android·Termux 또는 Windows·PowerShell, HAP-GPT, 사용 권한 |
 
 ChatGPT 구독과 OpenAI API는 별도 경로임. 구독 연결은 일반 OpenAI API 키 입력칸에서 설정하지 않음.
 
