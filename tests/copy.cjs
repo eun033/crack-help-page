@@ -30,7 +30,7 @@ async function check(denied) {
   if (denied) assert.match(status.textContent, /직접 복사/);
   else {
     assert.equal(copied, code.textContent);
-    assert.match(status.textContent, /복사했습니다/);
+    assert.match(status.textContent, /복사했음/);
   }
 }
 (async () => {
