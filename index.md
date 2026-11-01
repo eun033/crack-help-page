@@ -15,7 +15,7 @@ description: Wish Core의 기본 사용부터 백업, GPT 연결까지 한곳에
 
 **HAP-GPT**는 원본 확장 프로그램의 배포가 내려간 **Wish RP Manager Core 2.0.5**를 기반으로, **ChatGPT 구독 연결과 Firebase 백업**을 합친 확장 프로그램임.
 
-Koofr·Google Drive 백업과 기존 보조 AI 연결도 사용할 수 있음. 이 설명서는 공개 배포 파일의 화면과 동작을 기준으로 작성함.
+Koofr·Google Drive 백업과 기존 보조 AI 연결도 사용할 수 있음. 이 설명서는 **HAP-GPT 0.1.9·GPT 브리지 0.2.10**의 화면과 동작을 기준으로 작성함.
 
 - HAP-GPT를 사용한다면 기존 Core·Cloud Patch·HAP은 끄고 **HAP-GPT 하나만** 켬.
 - 일반 API 연결과 ChatGPT 구독 연결은 설정과 사용량 계산이 다름.
